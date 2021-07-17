@@ -16,6 +16,11 @@ const foo = css`
   }
 `;
 
-export const Button = (props) => {
-  return <button className={foo}>{props.text}</button>;
+// https://zenn.dev/yukiyohure/articles/32801c0c6bf147
+export const Button = ({ onClick, child, ...props }) => {
+  return (
+    <button className={foo} onClick={onClick}>
+      {child}
+    </button>
+  );
 };
