@@ -2,8 +2,9 @@ import { css } from "@emotion/css";
 
 const foo = css`
   padding: 0.5em 48px;
+  margin: 8px;
   background-color: hotpink;
-  font-size: 24px;
+  font-size: 16px;
   border-radius: 4em;
   text-align: center;
   color: ghostwhite;
