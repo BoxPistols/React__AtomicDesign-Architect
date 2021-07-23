@@ -1,3 +1,7 @@
-# Redux 210723
+# React__AtomicDesign-Architect
 
-Created with CodeSandbox
+- Redux
+- Emotion
+  - Emotion-CSS
+- Atomic Design  
+
